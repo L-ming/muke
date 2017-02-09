@@ -1,0 +1,315 @@
+/* CSS Document */
+*{ margin:0px; padding:0px;}
+ul{ list-style:none;}
+body{ font-size:16px; font-family: "Microsoft Yahei"; background:#fff;}
+a{ text-decoration:none; color:#000; }
+img{ border:none;}
+
+.left { float:left;}
+.right { float:right;}
+.clear { clear:both;}
+.clearfix:after {visibility: hidden; display: block; clear: both; height: 0; font-size: 0; content: ".";}
+.clearfix{zoom:1;}
+.mt{margint-top:10px;}
+.mr-big{margin:20px 0px;}
+.center{ text-align:center;}
+.border{border:1px solid #F00;}
+.mr-top{ margin-top:20px;}
+.header{ height:60px; background:#333; line-height:60px; padding-right:20px;overflow: hidden;}
+.container{ width:1200px; margin:0 auto; color:#656e73;min-width: 1200px;}
+.left{ float:left;}
+.right{ float:right;}
+
+
+/*公共样式*/
+
+/*头部开始*/
+/*头部左侧*/
+/*给html添加最小宽度等于版心宽度*/
+html,body{
+    min-width: 1200px;
+}
+.top-header{
+    position: fixed;
+    transition: display 1s;
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    z-index: 999;
+}
+.top-header .top-center{
+    margin: 0px auto;
+    min-width: 1200px;
+
+}
+.top-header .logo{
+    float: left;
+    margin: 0 20px;
+}
+.top-header .logo a{
+    display: block;
+    width: 128px;
+    height: 60px;
+    background: url("../images/header/logo.png") center center no-repeat;
+}
+
+.top-header .top-header-left ul li{
+    float: left;
+}
+
+.top-header .top-header-left ul .actived{
+    background-color: #373B44;
+}
+.top-header .top-header-left ul li a{
+    color: #ffffff;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    padding: 0px 25px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.top-header .top-header-left ul li a:hover{
+    background-color: #5e5e5e;
+}
+
+.top-header .icn-new{
+    position: relative;
+    top: -10px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/header/new.png) 0 0 no-repeat;
+}
+/*头部右侧*/
+.top-header .top-header-right{
+    height: 60px;
+    padding-right: 80px;
+    float: right;
+}
+.top-header .top-search{
+    width: 250px;
+    height: 38px;
+    margin: 10px 0;
+    float: left;
+    position: relative;
+    border: 1px solid #000;
+    border-bottom-color: rgba(120,125,130,.8);
+}
+.top-header .top-search .top-search-tags{
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    z-index: 100;
+}
+.top-header .top-search>.top-search-tags a{
+    padding: 2px 8px;
+    background-color: #2b333b;
+    color: #93999f;
+}
+.top-header .search-area{
+    height: 38px;
+    width: 250px;
+}
+.top-header .top-search-input{
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    font-size: 12px;
+    background-color: #000000;
+    color: #93999f;
+    font-family:"Times New Roman",Georgia,Serif;
+    font-size: 20px;
+    border: 0px;
+    outline:none;
+
+}
+.top-header .search-bar{
+    height: 38px;
+    width: 30px;
+    line-height: 38px;
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.top-header .search-bar i{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #767E81;
+    cursor: pointer;
+}
+.top-header .login-area{
+    height: 60px;
+    float: left;
+}
+.top-header .login-area ul{
+    margin-left: 20px;
+}
+.top-header .login-area li{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+.top-header .login-area li>a{
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+    color: #767E81;
+}
+.top-header .login-area ul:first-child{
+    position: relative;
+}
+.top-header .login-area li>a:hover{
+    background-color: #5e5e5e;
+    color: #FCFDFF;
+}
+/*手记扫码部分*/
+.top-header .appdownload{
+    width: 188px;
+    height: 166px;
+    position: absolute;
+    top: 70px;
+    left: -58px;
+    text-align: center;
+    padding: 16px 0 18px;
+    background-color: #fff;
+    z-index: 9999;
+    display: none;
+}
+.top-header .appdownload:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #fff;
+    position: absolute;
+    top: -8px;
+    left: 79px;
+}
+.top-header .apptext{
+    margin: 0px;
+    colar: #14191e;
+    font: 700 14px/15px "微软雅黑";
+}
+.top-header .apptype{
+    margin: 0px;
+    color: #787d82;
+    font: 12px/20px "微软雅黑";
+}
+/*头部结束*/
+
+
+/*底部开始*/
+.footer{
+    width: 100%;
+    border-top: 1px solid #e2e4e6;
+    font-size: 12px;
+    color: #787d82;
+    padding: 27px 0;
+    min-width: 620px;
+    background-color: #000000;
+}
+.foot-center{
+    width: 1200px;
+    margin: 0px auto;
+}
+.footer .info-left{
+    width: 702px;
+    padding-left: 40px;
+    float: left;
+}
+.footer .info-left li{
+    line-height: 1.7;
+    color: #DBD0E0;
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.footer .info-left p{
+    line-height: 1.8;
+}
+
+.footer .info-right{
+    margin-right: 34px;
+    padding-left: 30px;
+    float: right;
+}
+.footer .info-right>a{
+    width: 32px;
+    height: 32px;
+    margin: 3px 6px 0 6px;
+}
+.footer .info-right>a span{
+     color: #C5C2CB;
+     font-size: 35px;
+ }
+.footer .info-right>a span:hover{
+    color: #F4F5F9;
+}
+
+/*底部区域完成*/
+
+/*右边固定呢导航条*/
+.slide-bar{
+    position: fixed;
+    right: 0px;
+    bottom: 200px;
+    font-size: 25px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 12px 0 rgba(7,17,27,.1);
+}
+.slide-bar a{
+    display: block;
+    margin: 10px 10px;
+    border-bottom: 1px solid #edf1f2;
+}
+.slide-bar a span{
+    color: #787d82;
+    font-weight: 600;
+}
+.slide-bar a span:hover{
+    color: #07111b;
+}
+.slide-bar .icon-shouji{
+    margin-left: 6px;
+}
+.icon-shouji-app{
+    position: fixed;
+    bottom: 200px;
+    right: 52px;
+    width: 160px;
+    height: 200px;
+    background: url(../images/course/elevator.png)no-repeat 6px -4px;
+    display: none;
+}
+.icon-weixinxiaoxi-app{
+    position: fixed;
+    bottom: 200px;
+    right: 52px;
+    width: 160px;
+    height: 180px;
+    background: url(../images/course/elevator.png)no-repeat 6px -225px;
+    display: none;
+}
+#go-top{
+    display: none;
+}
+
+
+
+
+
+
+
+
+

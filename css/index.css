@@ -1,0 +1,345 @@
+
+/*section部分*/
+section{
+    min-width: 1200px;
+    width: 100%;
+    padding-top: 60px;
+}
+
+.bgi{
+    width: 100%;
+    height: 490px;
+    position: absolute;
+    top: 25px;
+    background: url(../images/index/bk.jpg) no-repeat top center;
+    z-index: -5;
+}
+
+.banner{
+    position: relative;
+    transition: background .5s;
+    background: url(../images/index/banner1.jpg) 0 0 no-repeat;
+}
+.banner-menu{
+    background-color: rgba(0, 0, 0, .3);
+    width: 224px;
+    position: relative;
+    z-index: 10;
+}
+.banner-menu-smallbox{
+    position: relative;
+    padding: 0px 24px;
+}
+.banner-menu-smallbox a{
+    display: block;
+    height: 64px;
+    line-height: 66px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    color: #ffffff;
+}
+
+.banner-menu-smallbox a i{
+    font-size: 12px;
+    font-weight: 900;
+    position: absolute;
+    top: 26px;
+    right: 30px;
+}
+
+
+/*隐藏菜单*/
+.hide-menu{
+    width: 732px;
+    height: 455px;
+    /*background: url(../images/index/hidemenubg.png) 0 0 no-repeat;*/
+    position: absolute;
+    top: 0px;
+    left: 225px;
+    display: none;
+}
+.hide-menu-box{
+    padding: 0 40px;
+}
+.hide-menu-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #07111b;
+    padding-top: 20px;
+}
+
+.hide-cbox-title{
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    font-weight: 700;
+    font-size: 15px;
+    float: left;
+    color: #4d555d;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+.hide-tagbox{
+    float: left;
+    color: #07111b;
+    width: 605px;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.hide-menu-sz{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.hide-menu-sz span{
+    padding: 2px 6px;
+    background-color: #f3f5f7;
+    color: #4d555d;
+    margin-right: 10px;
+}
+/*轮播图按钮*/
+.banner-left{
+    width: 50px;
+    height: 80px;
+    position: absolute;
+    top: 170px;
+    left: 250px;
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 80px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+.banner-left:hover{
+    background-color: rgba(0, 0, 0, .4);
+}
+.banner-right{
+    width: 50px;
+    height: 80px;
+    position: absolute;
+    top: 174px;
+    right: 40px;
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 80px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.banner-right:hover {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+/*主页中部*/
+.containbox-title{
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px 0;
+    color: #07111b;
+}
+
+.containbox-title a{
+    float: right;
+    font-size: 14px;
+    font-weight: 400;
+}
+/*小盒子*/
+.containbox{
+    padding-top: 20px;
+}
+.containbox-pd{
+    padding-bottom: 40px;
+}
+.course-wrap{
+    margin: 8px;
+    float: left;
+    position: relative;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1);
+}
+
+.course-wrap:hover{
+    -webkit-box-shadow: 0 10px 14px 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 10px 14px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.2);
+}
+.course-wrap-img{
+    overflow: hidden;
+}
+.course-wrap-img img{
+    width: 100%;
+    height: 124px;
+}
+.course-wap-hd{
+    width: 224px;
+    height: 172px;
+    position: relative;
+    overflow: hidden;
+}
+.course-wrap-img p{
+    font-size: 12px;
+    color: #93999f;
+    line-height: 25px;
+}
+.course-wrap-sp{
+    width: 184px;
+    height: 42px;
+    line-height: 42px;
+    padding: 0px 20px;
+    font-size: 12px;
+    color: #93999f;
+    background-color: #fff;
+}
+
+.course-wrap-into{
+    position: absolute;
+    box-sizing: border-box;
+    transition: top .5s;
+    top: 75px;
+    background-image: url(../images/course/bg-course.png);
+    width: 100%;
+    height: 144px;
+    padding: 16px 20px 6px;
+}
+.course-wrap-into:hover{
+    top: 28px;
+}
+.course-wrap-into i{
+    font-style: normal;
+    font-size: 12px;
+    background-color: #93999f;
+    margin-right: 2px;
+    line-height: 12px;
+    padding: 2px;
+    color: #ffffff;
+}
+.course-wrap-into h3{
+    font-size: 14px;
+    color: #07111b;
+
+}
+.course-wrap-into h3{
+    font-size: 14px;
+}
+.course-wrap-sp{
+    position: absolute;
+    color: #93999f;
+    bottom: 0px;
+}
+
+
+/*内容下部分*/
+
+.content-bottom{
+    background-color: #F4F5F9;
+}
+.content-bottompd{
+    padding-bottom: 40px;
+}
+.cb-largebox{
+    padding-top: 20px;
+}
+
+.cb-left{
+    width: 224px;
+    height: 364px;
+    margin-left: 6px;
+    margin-right: 15px;
+    margin-top: 20px;
+    background: url(../images/index/web.png) 0 0 no-repeat;
+}
+.cb-left-title{
+    margin: 20px 15px 0;
+}
+.cb-left-title p{
+    font-size: 32px;
+    font-weight: 800;
+    color: #fff;
+    display: block;
+}
+.cb-left>a{
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.cb-left-content{
+    padding-top: 120px;
+    margin-left: 15px;
+}
+.cb-left-content a{
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 20px;
+}
+/*内容下部分中间盒子*/
+.cb-center{
+    width: 715px;
+}
+.cb-center1{
+    width: 468px;
+    height: 172px;
+    background: url(../images/index/cbcontent1.jpg) 0 0 no-repeat;
+    text-align: center;
+    line-height: 172px;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.cb-center1 span{
+    color: #fff;
+    font-size: 20px;
+}
+.cb-center3{
+    width: 468px;
+    height: 172px;
+    background: url(../images/index/cbcontent2.jpg) 0 0 no-repeat;
+    text-align: center;
+    line-height: 172px;
+    margin-top: 12px;
+    margin-right: 5px;
+}
+.cb-center3 span{
+    color: #fff;
+    font-size: 20px;
+}
+.cb-center2{
+     margin: 12px 0 0;
+ }
+.cb-center4{
+    margin: 4px 0 0;
+}
+.cb-right{
+    margin-top: 11px;
+    width: 224px;
+}
+.cb-right-text{
+    width: 224px;
+}
+.cb-right .cb-right-text>ul{
+    padding: 0px 40px;
+    height: 193px;
+    font-size: 12px;
+    line-height: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    list-style-type: square;
+    color: #14191e;
+    background-color: #fff;
+}
+.cb-right ul li{
+    height: 30px;
+    line-height: 30px;
+}
+.cb-right .cb-right-text>ul a:hover{
+    color: #f01414;
+}
+

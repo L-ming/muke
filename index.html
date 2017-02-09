@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>慕课网</title>
+    <link rel="icon" href ="./favicon.ico"/>
+    <link rel="stylesheet" href="./css/common.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="./css/index.css"/>
+</head>
+<body>
+<!--头部区域-->
+<header class="top-header clearfix" id="top-header"></header>
+<!--中间区域-->
+<section class="main">
+    <div class="bgi" id="bgi"></div>
+
+    <div class="banner container" id="banner">
+        <!--轮播图-->
+        <div class="banner-left" id="banner-left"><span class="icon-zuojiantou"></span></div>
+        <div class="banner-right" id="banner-right"><span class="icon-youjiantou"></span></div>
+        <div class="banner-menu">
+            <div class="banner-menu-smallbox" id="mouse-qianduan">
+                <a href="#">
+                    <span>前端开发</span>
+                    <i class="icon-youjiantou"></i>
+                </a>
+            </div>
+            <div class="banner-menu-smallbox" id="mouse-houduan">
+                <a href="#">
+                    <span>后端开发</span>
+                    <i class="icon-youjiantou"></i>
+                </a>
+            </div>
+            <div class="banner-menu-smallbox" id="mouse-yidong">
+                <a href="#">
+                    <span>移动开发</span>
+                    <i class="icon-youjiantou"></i>
+                </a>
+            </div>
+            <div class="banner-menu-smallbox" id="mouse-shujuku">
+                <a href="#">
+                    <span>数据库</span>
+                    <i class="icon-youjiantou"></i>
+                </a>
+            </div>
+            <div class="banner-menu-smallbox" id="mouse-yunjisuan">
+                <a href="#">
+                    <span>云计算&大数据</span>
+                    <i class="icon-youjiantou"></i>
+                </a>
+            </div>
+            <div class="banner-menu-smallbox" id="mouse-yunwei">
+                <a href="#">
+                    <span>运维&测试</span>
+                    <i class="icon-youjiantou"></i>
+                </a>
+            </div>
+            <div class="banner-menu-smallbox" id="mouse-shijue">
+                <a href="#">
+                    <span>视觉设计</span>
+                    <i class="icon-youjiantou"></i>
+                </a>
+            </div>
+        </div>
+
+        <!--隐藏菜单前端-->
+        <div class="hide-menu" id="hide-qianduan">
+            <div class="hide-menu-box">
+                <div class="hide-menu-title">分类目录</div>
+                <div class="hide-cbox clearfix">
+                    <span class="hide-cbox-title">基础:</span>
+                    <div class="hide-tagbox">
+                        <a href="./course.html">html</a><span>/</span>
+                        <a href="./course.html">css</a><span>/</span>
+                        <a href="./course.html">javascript</a><span></span>
+                    </div>
+                    <sapn class="hide-cbox-title">进阶:</sapn>
+                    <div class="hide-tagbox">
+                        <a href="./course.html">html5</a><span>/</span>
+                        <a href="./course.html">css3</a><span>/</span>
+                        <a href="./course.html">nodejs</a><span>/</span>
+                        <a href="./course.html">angularjs</a><span>/</span>
+                        <a href="./course.html">vuejs</a><span>/</span>
+                        <a href="./course.html">bootstrap</a><span>/</span>
+                        <a href="./course.html">webapp</a><span>/</span>
+                        <a href="./course.html">less</a><span></span>
+                    </div>
+                    <span class="hide-cbox-title">其它:</span>
+                    <div class="hide-tagbox">
+                        <a href="#">前端工具</a><span></span>
+                    </div>
+                </div>
+                <div class="hide-menu-title">课程推荐</div>
+                <p class="hide-menu-sz"><a href="./course.html"><span>实战</span>微信小程序入门与实战 常用组件 API 开发技巧 项目实战</a></p>
+                <p class="hide-menu-sz"><a href="./course.html"><span>实战</span>Vue.js高仿饿了么外卖App 2016最火前端框架</a></p>
+                <p class="hide-menu-sz"><a href="./course.html"><span>课程</span>用less写个新浪微博</a></p>
+                <p class="hide-menu-sz"><a href="./course.html"><span>课程</span>CSS圆角进化论</a></p>
+            </div>
+        </div>
+
+        <!--隐藏菜单后台-->
+        <div class="hide-menu" id="hide-houduan">
+            <div class="hide-menu-box">
+                <div class="hide-menu-title">分类目录</div>
+                <div class="hide-cbox clearfix">
+                    <div class="hide-tagbox">
+                    <a href="./course.html">php</a><span>/</span>
+                    <a href="./course.html">java</a><span>/</span>
+                    <a href="./course.html">c</a><span></span>
+                    <a href="./course.html">c++</a><span>/</span>
+                    <a href="./course.html">Go</a><span>/</span>
+                    <a href="./course.html">ruby</a><span>/</span>
+                    </div>
+                </div>
+                <div class="hide-menu-title">课程推荐</div>
+                <p class="hide-menu-sz"><a href="course.html"><span>实战</span>系统深入Android自动化测试-Java篇 工具 框架 脚本</a></p>
+                <p class="hide-menu-sz"><a href="course.html"><span>实战</span>实战算法与数据结构C++精解</a></p>
+                <p class="hide-menu-sz"><a href="course.html"><span>课程</span>课程SpringMVC数据绑定入门</a></p>
+                <p class="hide-menu-sz"><a href="course.html"><span>课程</span>课程python装饰器</a></p>
+                <p class="hide-menu-sz"><a href="course.html"><span>课程</span>课程用C#实现封装</a></p>
+            </div>
+        </div>
+        <!--隐藏菜单移动-->
+        <div class="hide-menu" id="hide-yidong">
+            <div class="hide-menu-box">
+                <div class="hide-menu-title">分类目录</div>
+                <div class="hide-cbox clearfix">
+                    <div class="hide-tagbox">
+                    <a href="./course.html">Android</a><span>/</span>
+                    <a href="./course.html">iOS</a><span>/</span>
+                    <a href="./course.html">Unity 3D</a><span></span>
+                    <a href="./course.html">Cocos2d-x</a><span>/</span>
+                    </div>
+                </div>
+                <div class="hide-menu-title">课程推荐</div>
+                <p class="hide-menu-sz"><a href="./course.html"><span>职业路径</span>零基础入门Android语法与界面</a></p>
+                <p class="hide-menu-sz"><a href="./course.html"><span>实战</span>系统深入Android自动化测试-Java篇 工具 框架 脚本</a></p>
+                <p class="hide-menu-sz"><a href="./course.html"><span>课程</span>Android5.0高级动画开发 矢量图动画 轨迹动画 路径变换</a></p>
+                <p class="hide-menu-sz"><a href="./course.html"><span>课程</span>How-old 刷脸神器</a></p>
+                <p class="hide-menu-sz"><a href="./course.html"><span>课程</span>Alamofire的最佳实践</a></p>
+            </div>
+        </div>
+
+        <!--隐藏菜单数据库-->
+        <div class="hide-menu" id="hide-shujuku">
+            <div class="hide-menu-box">
+                <div class="hide-menu-title">分类目录</div>
+                <div class="hide-cbox clearfix">
+                    <div class="hide-tagbox">
+                    <a href="./course.html">MySQL</a><span>/</span>
+                    <a href="./course.html">MongoDB</a><span>/</span>
+                    <a href="./course.html">Oracle</a><span></span>
+                    <a href="./course.html">SQL Server</a><span>/</span>
+                    </div>
+                </div>
+                <div class="hide-menu-title">课程推荐</div>
+                <p class="hide-menu-sz"><a href="./course.html"><span>实战</span>Yii2.0打造完整电商平台</a></p>
+                <p class="hide-menu-sz"><a href="./course.html"><span>实战</span>MySQL5.7版本新特性</a></p>
+                <p class="hide-menu-sz"><a href="./course.html"><span>课程</span>Duang~MySQLi扩展库来袭</a></p>
+                <p class="hide-menu-sz"><a href="./course.html"><span>课程</span>MySQL5.7复制功能实战</a></p>
+            </div>
+        </div>
+        <!--隐藏菜单云计算-->
+        <div class="hide-menu" id="hide-yunjisuan">
+            <div class="hide-menu-box">
+                <div class="hide-menu-title">分类目录</div>
+                <div class="hide-cbox clearfix">
+                    <div class="hide-tagbox">
+                    <a href="#">大数据</a><span>/</span>
+                    <a href="#">云计算</a><span>/</span>
+                    </div>
+                </div>
+                <div class="hide-menu-title">课程推荐</div>
+                <p class="hide-menu-sz"><a href="./course.html"><span>实战</span>扛得住的MySQL数据库架构</a></p>
+                <p class="hide-menu-sz"><a href="./course.html"><span>实战</span>走近大数据之Hive入门</a></p>
+                <p class="hide-menu-sz"><a href="./course.html"><span>课程</span>走进大数据之storm流式计算基础</a></p>
+                <p class="hide-menu-sz"><a href="./course.html"><span>课程</span>Scala程序设计—基础篇</a></p>
+            </div>
+        </div>
+
+        <!--隐藏菜单运维-->
+        <div class="hide-menu" id="hide-yunwei">
+            <div class="hide-menu-box">
+                <div class="hide-menu-title">分类目录</div>
+                <div class="hide-cbox clearfix">
+                    <div class="hide-tagbox">
+                    <a href="./course.html">测试</a><span>/</span>
+                    <a href="./course.html">Linux</a><span>/</span>
+                    </div>
+                </div>
+                <div class="hide-menu-title">课程推荐</div>
+                <p class="hide-menu-sz"><a href="./course.html"><span>实战</span>系统深入Android自动化测试-Java篇 工具 框架 脚本</a></p>
+                <p class="hide-menu-sz"><a href="./course.html"><span>实战</span>Android专项测试-Python篇 10年测试经验讲师</a></p>
+                <p class="hide-menu-sz"><a href="./course.html"><span>课程</span>Linux系统管理</a></p>
+                <p class="hide-menu-sz"><a href="./course.html"><span>课程</span>JMeter性能测试入门篇</a></p>
+                <p class="hide-menu-sz"><a href="./course.html"><span>课程</span>Linux Guide for Developers</a></p>
+            </div>
+        </div>
+
+        <!--隐藏菜单视觉-->
+        <div class="hide-menu" id="hide-shijue">
+            <div class="hide-menu-box">
+                <div class="hide-menu-title">分类目录</div>
+                <div class="hide-cbox clearfix">
+                    <div class="hide-tagbox">
+                    <a href="./course.html">Photoshop</a><span>/</span>
+                    <a href="./course.html">Maya</a><span>/</span>
+                    <a href="./course.html">Premiere</a><span></span>
+                    <a href="./course.html">ZBrush</a><span>/</span>
+                    </div>
+                </div>
+                <div class="hide-menu-title">课程推荐</div>
+                <p class="hide-menu-sz"><a href="./course.html"><span>实战</span>“Doge”变化术</a></p>
+                <p class="hide-menu-sz"><a href="./course.html"><span>实战</span>拍摄与剪辑“怀孕日记”</a></p>
+                <p class="hide-menu-sz"><a href="./course.html"><span>课程</span>Maya3D建模攻略——葵花宝典</a></p>
+            </div>
+        </div>
+    </div>
+    <!--主页中部-->
+    <div class="container containbox">
+        <div class="containbox-title clearfix">
+            <span>实战推荐</span>
+            <a href="#">更多<span class="icon-youjiantou"></span></a>
+        </div>
+
+        <!-- 小盒子开始-->
+        <div class="containbox-course clearfix" id="containbox-course1">
+            <!--四个小盒子-->
+            <!--<div class="course-wrap">
+                <div class="course-wrap-img">
+                    <div class="course-wap-hd">
+                        <a href="#">
+                            <img src="images/course/course-1.jpg" alt=""/>
+                            <div class="course-wrap-into">
+                                <h3><i>中</i><span>在react中使用redux数据流。</span></h3>
+                                <p>在react中使用redux数据流。</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="course-wrap-sp"><span>243人在学</span></div>
+            </div>-->
+
+           <!-- <div class="course-wrap">
+                <div class="course-wrap-img">
+                    <div class="course-wap-hd">
+                        <a href="#">
+                            <img src="images/course/course-1.jpg" alt=""/>
+                            <div class="course-wrap-into">
+                                <h3><i>中</i><span>在react中使用redux数据流。</span></h3>
+                                <p>在react中使用redux数据流。</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="course-wrap-sp"><span>243人在学</span></div>
+            </div>-->
+
+            <!--<div class="course-wrap">
+                <div class="course-wrap-img">
+                    <div class="course-wap-hd">
+                        <a href="#">
+                            <img src="images/course/course-1.jpg" alt=""/>
+                            <div class="course-wrap-into">
+                                <h3><i>中</i><span>在react中使用redux数据流。</span></h3>
+                                <p>在react中使用redux数据流。</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="course-wrap-sp"><span>243人在学</span></div>
+            </div>-->
+
+            <!--<div class="course-wrap">
+                <div class="course-wrap-img">
+                    <div class="course-wap-hd">
+                        <a href="#">
+                            <img src="images/course/course-1.jpg" alt=""/>
+                            <div class="course-wrap-into">
+                                <h3><i>中</i><span>在react中使用redux数据流。</span></h3>
+                                <p>在react中使用redux数据流。</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="course-wrap-sp"><span>243人在学</span></div>
+            </div>-->
+
+            <!--<div class="course-wrap">
+                <div class="course-wrap-img">
+                    <div class="course-wap-hd">
+                        <a href="#">
+                            <img src="images/course/course-1.jpg" alt=""/>
+                            <div class="course-wrap-into">
+                                <h3><i>中</i><span>在react中使用redux数据流。</span></h3>
+                                <p>在react中使用redux数据流。</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="course-wrap-sp"><span>243人在学</span></div>
+            </div>-->
+        </div>
+    </div>
+
+    <!--主页中部-->
+    <div class="container containbox">
+        <div class="containbox-title clearfix">
+            <span>免费好课</span>
+            <a href="#">更多<span class="icon-youjiantou"></span></a>
+        </div>
+
+        <!-- 小盒子开始-->
+        <div class="containbox-course clearfix  containbox-pd" id="containbox-course2">
+            <!--四个小盒子-->
+            <!--<div class="course-wrap">
+                <div class="course-wrap-img">
+                    <div class="course-wap-hd">
+                        <a href="#">
+                            <img src="images/course/course-1.jpg" alt=""/>
+                            <div class="course-wrap-into">
+                                <h3><i>中</i><span>在react中使用redux数据流。</span></h3>
+                                <p>在react中使用redux数据流。</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="course-wrap-sp"><span>243人在学</span></div>
+            </div>-->
+
+            <!--<div class="course-wrap">
+                <div class="course-wrap-img">
+                    <div class="course-wap-hd">
+                        <a href="#">
+                            <img src="images/course/course-1.jpg" alt=""/>
+                            <div class="course-wrap-into">
+                                <h3><i>中</i><span>在react中使用redux数据流。</span></h3>
+                                <p>在react中使用redux数据流。</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="course-wrap-sp"><span>243人在学</span></div>
+            </div>-->
+
+            <!--<div class="course-wrap">
+                <div class="course-wrap-img">
+                    <div class="course-wap-hd">
+                        <a href="#">
+                            <img src="images/course/course-1.jpg" alt=""/>
+                            <div class="course-wrap-into">
+                                <h3><i>中</i><span>在react中使用redux数据流。</span></h3>
+                                <p>在react中使用redux数据流。</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="course-wrap-sp"><span>243人在学</span></div>
+            </div>-->
+
+           <!-- <div class="course-wrap">
+                <div class="course-wrap-img">
+                    <div class="course-wap-hd">
+                        <a href="#">
+                            <img src="images/course/course-1.jpg" alt=""/>
+                            <div class="course-wrap-into">
+                                <h3><i>中</i><span>在react中使用redux数据流。</span></h3>
+                                <p>在react中使用redux数据流。</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="course-wrap-sp"><span>243人在学</span></div>
+            </div>-->
+
+            <!--<div class="course-wrap">
+                <div class="course-wrap-img">
+                    <div class="course-wap-hd">
+                        <a href="#">
+                            <img src="images/course/course-1.jpg" alt=""/>
+                            <div class="course-wrap-into">
+                                <h3><i>中</i><span>在react中使用redux数据流。</span></h3>
+                                <p>在react中使用redux数据流。</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="course-wrap-sp"><span>243人在学</span></div>
+            </div>-->
+        </div>
+    </div>
+
+    <!--下半部分内容-->
+    <div class="content-bottom">
+        <div class="container clearfix cb-largebox">
+            <div class="left cb-left">
+                <div class="cb-left-title"><p>web</p><p>前端工程师</p></div>
+                <a href="#">职业路径<span class="icon-youjiantou"></span></a>
+                <div class="cb-left-content">
+                    <p><a href="#">jQuery源码探索之旅</a></p>
+                    <p><a href="#">响应式布局那些事</a></p>
+                    <p><a href="#">教你HTML5开发爱心鱼游戏</a></p>
+                </div>
+            </div>
+            <div class="left cb-center clearfix">
+                <a href="#">
+                    <div class="cb-center1 left">
+                        <span>[精选]HTML5与CSS3实现动态网页</span>
+                    </div>
+                </a>
+                <div class="cb-center2 left" id="cb-center2">
+                    <!--<div class="course-wrap">
+                        <div class="course-wrap-img">
+                            <div class="course-wap-hd">
+                                <a href="#">
+                                    <img src="images/course/course-1.jpg" alt=""/>
+                                    <div class="course-wrap-into">
+                                        <h3><i>中</i><span>在react中使用redux数据流。</span></h3>
+                                        <p>在react中使用redux数据流。</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="course-wrap-sp"><span>243人在学</span></div>
+                    </div>-->
+                </div>
+                <a href="#">
+                    <div class="cb-center3 left">
+                        <span>飞速上手的跨平台App开发</span>
+                    </div>
+                </a>
+                <div class="cb-center4 left" id="cb-center3">
+                   <!-- <div class="course-wrap">
+                        <div class="course-wrap-img">
+                            <div class="course-wap-hd">
+                                <a href="#">
+                                    <img src="images/course/course-1.jpg" alt=""/>
+                                    <div class="course-wrap-into">
+                                        <h3><i>中</i><span>在react中使用redux数据流。</span></h3>
+                                        <p>在react中使用redux数据流。</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="course-wrap-sp"><span>243人在学</span></div>
+                    </div>-->
+                </div>
+            </div>
+            <div class="left cb-right">
+                <div class="course-wrap">
+                    <div class="course-wrap-img">
+                        <div class="course-wap-hd">
+                            <a href="#">
+                                <img src="images/course/course-1.jpg" alt=""/>
+                                <div class="course-wrap-into">
+                                    <h3><i>中</i><span>在react中使用redux数据流。</span></h3>
+                                    <p>在react中使用redux数据流。</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="course-wrap-sp"><span>243人在学</span></div>
+
+                    <div class="cb-right-text">
+                        <ul>
+                            <li><a href="#">如何使用高德云图在线制作属于你的地图</a></li>
+                            <li><a href="#">JS/jQuery宽高的理解和应用</a></li>
+                            <li><a href="#">JavaScript正则表达式</a></li>
+                            <li><a href="#">TypeScript入门</a></li>
+                            <li><a href="#">CSS3实现“图片阴影”效果</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--下半部分内容-->
+    <div class="content-bottom content-bottompd">
+        <div class="container clearfix cb-largebox">
+            <div class="left cb-left" style="background: url(./images/index/php.png) 0 0 no-repeat;">
+                <div class="cb-left-title"><p>java</p><p>工程师</p></div>
+                <a href="#">职业路径<span class="icon-youjiantou"></span></a>
+                <div class="cb-left-content">
+                    <p><a href="#">模式宗师养成宝典之Java版</a></p>
+                    <p><a href="#">搞定Java加解密</a></p>
+                    <p><a href="#">Hibernate开发宝典</a></p>
+                </div>
+            </div>
+            <div class="left cb-center clearfix">
+                <a href="#">
+                    <div class="cb-center1 left" style="background: url(./images/index/cbcontent3.jpg) 0 0 no-repeat;">
+                        <span>快速入手：搞定Java加解密</span>
+                    </div>
+                </a>
+                <div class="cb-center2 left" id="cb-center4">
+                    <!--<div class="course-wrap">
+                        <div class="course-wrap-img">
+                            <div class="course-wap-hd">
+                                <a href="#">
+                                    <img src="images/course/course-1.jpg" alt=""/>
+                                    <div class="course-wrap-into">
+                                        <h3><i>中</i><span>在react中使用redux数据流。</span></h3>
+                                        <p>在react中使用redux数据流。</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="course-wrap-sp"><span>243人在学</span></div>
+                    </div>-->
+                </div>
+                <a href="#">
+                    <div class="cb-center3 left" style="background: url(./images/index/cbcontent1.jpg) 0 0 no-repeat;">
+                        <span>PHP微信公众平台开发攻略</span>
+                    </div>
+                </a>
+                <div class="cb-center4 left" id="cb-center5">
+                   <!-- <div class="course-wrap">
+                        <div class="course-wrap-img">
+                            <div class="course-wap-hd">
+                                <a href="#">
+                                    <img src="images/course/course-1.jpg" alt=""/>
+                                    <div class="course-wrap-into">
+                                        <h3><i>中</i><span>在react中使用redux数据流。</span></h3>
+                                        <p>在react中使用redux数据流。</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="course-wrap-sp"><span>243人在学</span></div>
+                    </div>-->
+                </div>
+            </div>
+            <div class="left cb-right">
+                <div class="course-wrap">
+                    <div class="course-wrap-img">
+                        <div class="course-wap-hd">
+                            <a href="#">
+                                <img src="images/course/course-1.jpg" alt=""/>
+                                <div class="course-wrap-into">
+                                    <h3><i>中</i><span>在react中使用redux数据流。</span></h3>
+                                    <p>在react中使用redux数据流。</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="course-wrap-sp"><span>243人在学</span></div>
+
+                    <div class="cb-right-text">
+                        <ul>
+                            <li><span class="icon-youjiantou">.</span><a href="#">如何使用高德云图在线制作属于你的地图</a></li>
+                            <li><span class="icon-youjiantou">.</span><a href="#">JS/jQuery宽高的理解和应用</a></li>
+                            <li><span class="icon-youjiantou">.</span><a href="#">JavaScript正则表达式</a></li>
+                            <li><span class="icon-youjiantou">.</span><a href="#">TypeScript入门</a></li>
+                            <li><span class="icon-youjiantou">.</span><a href="#">CSS3实现“图片阴影”效果</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+</section>
+<!--底部区域-->
+<footer class="footer"></footer>
+<!--右边固定工具条-->
+<div class="slide-bar">
+    <a href="#" title="意见反馈"><span class="icon-xiaoxi"></span></a>
+    <a href="#" title="app下载">
+        <span class="icon-shouji" id="icon-shouji"></span>
+        <div class="icon-shouji-app" id="icon-shouji-app"></div>
+    </a>
+    <a href="#" title="官方微信">
+        <span class="icon-weixinxiaoxi" id="icon-weixinxiaoxi"></span>
+        <div class="icon-weixinxiaoxi-app" id="icon-weixinxiaoxi-app"></div>
+    </a>
+    <a href="#" title="返回顶部"id="go-top"><span class="icon-shangjiantou"></span></a>
+</div>
+<script src="./js/jquery.js"></script>
+<script src="./js/jquery.lazyload.js"></script>
+<script src="./js/hfajax.js"></script>
+<script src="./js/common.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>
